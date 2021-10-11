@@ -1,0 +1,7 @@
+#Slope of a line
+point1x = eval(input("Enter the x coordinate for point 1: "))
+point1y = eval(input("Enter the y coordinate for point 1: "))
+point2x = eval(input("Enter the x coordinate for point 2: "))
+point2y = eval(input("Enter the y coordinate for point 2: "))
+
+print(f"The slope for the line that connects two points {point1x,point1y} and {point2x,point2y} is {round((point2y - point1y)/(point2x - point1x),5)}")
