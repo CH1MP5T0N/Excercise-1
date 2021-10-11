@@ -1,0 +1,5 @@
+#Runway Length
+speed = eval(input("Enter the plane's tale off speed in m/s: "))
+acceleration = eval(input("Enter the plane's acceleration in m/s**2: "))
+
+print(f"The minimum runway legnth needed for this airplane is {round((speed**2)/(acceleration*2),4)}")
